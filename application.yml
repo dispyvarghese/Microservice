@@ -1,0 +1,11 @@
+server:
+   port: 7500
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:1111/eureka/ 
+   instance:
+      appName:ProductService
+spring:
+   application:
+      name: ProductService
